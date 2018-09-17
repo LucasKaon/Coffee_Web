@@ -15,6 +15,36 @@
 	height: 600px;
 }
 
+#funcionamento{
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+#escolher_menu{
+	border-bottom: 1px solid #A4A4A4;
+	padding-top: 5px;
+	height: 50px;
+}
+
+#menu_eat{
+	margin-top: 20px;
+	border-bottom: 2px solid #A4A4A4;
+	border-right: 1px solid #A4A4A4;
+	border-left: 1px solid #A4A4A4;
+	border-radius: 5px;
+	padding-left: 15px;
+	display: block;
+}
+
+#menu_drink{
+	margin-top: 20px;
+	border-bottom: 2px solid #A4A4A4;
+	border-right: 1px solid #A4A4A4;
+	border-left: 1px solid #A4A4A4;
+	border-radius: 5px;
+	padding-left: 15px;
+	display: none;
+}
 
 /*	CLASS INDEX*/
 
@@ -22,8 +52,21 @@
 	display: block;
 	background-size: contain;
 	overflow: hidden;
-	height: 600px;
+	height: auto;
 	width: 100%;
+}
+
+.img-conteudo{
+	display: block;
+	background-size: contain;
+	width: 100%;
+	height: auto;
+	filter: grayscale(80%);
+}
+
+.img-conteudo:hover{
+	filter: grayscale(0%);
+	transition-duration: 1.5s;
 }
 
 .custom{
@@ -38,8 +81,15 @@ h1{
 	font-size: 18px;
 	text-transform: uppercase;
 	letter-spacing: 5px;
+	margin-bottom: 80px;
+	margin-top: 60px;
 }
 
 p{
 	font-size: 16px;
+	padding-top: 5px;
+}
+
+.menu_p{
+	color: gray;
 }
