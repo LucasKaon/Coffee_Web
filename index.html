@@ -12,7 +12,10 @@
 		    	<link rel="stylesheet" href="estilo/style.css">
 
 		    <!-- JavaScript -->
-		    	<script src="js/javascript.js"></script>
+		    	<script src="js/javascript.js">
+		    		
+
+		    	</script>
 
 
 
@@ -206,8 +209,12 @@
 
 						<form method="post" action="validar.php">
 
-
+							<input type="name" class="custom-form" name="Name" placeholder="Name" required="">
+							<input type="number" class="custom-form" name="Quantidade" placeholder="How many peoples" required="">
+							<input type="date" class="custom-form" name="Data" required="">
+							<input type="text" maxlength="400" class="custom-form" name="Message" placeholder="Write your message \ Special requirements" required="">
 							
+							<input type="submit" class="btn-form" name="Submeter" value="Send Message">
 						</form>
 
 					</div>
@@ -216,7 +223,24 @@
 					<!-- END CONTACT FORM -->
 
 				</div>
+
+				<div class="col-md-12">
+
+					<footer>
+						<p class="copyright"><span class="glyphicon glyphicon glyphicon-map-marker"></span> Lucas Amado</p>
+						<!--	
+								glyphicon glyphicon-qrcode 
+								glyphicon glyphicon-user
+								glyphicon glyphicon-map-marker
+								glyphicon glyphicon-console
+
+						-->
+					</footer>
+
+				</div>
+
 		</div>
+		<!-- END CONTAINER -->
 
 	</body>
 </html>
